@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-style: oblique;
+    text-align: center;
+    font-size: 5.7rem;
+}
+body{
+    
+    background-image: url(img/cork.png);
+}
+header{
+    height: 130px;
+    background-image: url(img/wall.png);
+}
+.card-pin{
+    width: 30px;
+    position: absolute;
+    top: -10px;
+    left: 45%;
+}
+.card{
+    box-shadow: 1.5px 1px rgb(80, 76, 76);
+    position: relative;
+}
